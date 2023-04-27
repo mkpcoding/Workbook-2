@@ -1,6 +1,5 @@
-var income; 
-var tax; 
+var income, taxes; 
 income = 95553; 
-tax = (income / 100) * 23; 
+tax = (income / 100) * 23;
 tax = parseFloat(tax.toFixed());
-console.log(" WItheld for taxes is "+ tax);
+console.log(" Witheld for taxes is "+ tax);
