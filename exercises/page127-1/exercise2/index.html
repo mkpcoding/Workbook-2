@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <label for="numberOne">Number 1:</label>
+        <input type="number" name="numberOne" id="numberOneInput" value="31" />
+        <label for="numberTwo">Number 2:</label>
+        <input type="number" name="numberTwo" id="numberTwoInput" />
+
+        <button id="additionButton" type="button" onclick="add();">Add</button>
+        <button id="subtractionButton">Subtract</button>
+        <button id="multiplicationButton">Multiply</button>
+        <button id="divisionButton">Divide</button>
+
+        <label for="answer">Answer:</label>
+        <input type="number" name="answer" id="answerOutput" readonly />
+      </form>
+    </main>
+    <script src="script/calculator.js"></script>
+  </body>
+</html>
