@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css" />
+</head>
+<body>
+    <h1>Mortgage Calculator</h1>
+    <form id="mortgage-form">
+        <label for="principal">Principal:</label>
+        <input type="number" id="principal" name="principal">
+        <label for="interest-rate">Interest Rate (%):</label>
+        <input type="number" id="interest-rate" step="0.01" required>
+        <label for="loan-length">Loan Length (years):</label>
+        <input type="number" id="loan-length" required>
+        <button type="cal">Calculate</button>
+    </form>
+    <div id="results"></div>
+    <a href="index.html">Back to Homepage</a>
+    <script src="scripts.js"></script>
+</body>
+</html>
